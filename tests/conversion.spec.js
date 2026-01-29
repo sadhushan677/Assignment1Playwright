@@ -9,7 +9,7 @@ const testCases = [
   { id: 'Pos_Fun_0002', input: 'epdi irukeenga? ' },
   { id: 'Pos_Fun_0003', input: 'naan innaikku varuven ' },
   { id: 'Pos_Fun_0004', input: 'nee enna sapta? ' },
-  { id: 'Pos_Fun_0005', input: 'naalai naan povேன் ' },
+  { id: 'Pos_Fun_0005', input: 'naalai naan poven ' },
   { id: 'Pos_Fun_0006', input: 'please konjam help pannunga ' },
   { id: 'Pos_Fun_0007', input: 'enna da idhu? ' },
   { id: 'Pos_Fun_0008', input: 'super ah irukku!!! ' },
@@ -106,3 +106,4 @@ test('Pos_UI_0001 – Real-time update while typing', async ({ page }) => {
   expect(out2).not.toBe('');
   expect(out3).not.toBe('');
 });
+
